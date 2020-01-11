@@ -13,7 +13,7 @@ module.exports = function() {
   }
 
   function generateHtml(fileName, next) {
-    return generate(fileName, next, 'pdf');
+    return generate(fileName, next, 'html');
   }
 
   function generate(fileName, next, outputType) {
