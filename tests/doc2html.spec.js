@@ -11,7 +11,7 @@ describe('A docx file to HTML conversion should ', function() {
       }
       expect(result).to.not.be.undefined;
       expect(result.outputFile).to.not.be.undefined;
-      expect(result.outputFile).to.have.string('test.pdf');
+      expect(result.outputFile).to.have.string('test.html');
       done();
     });
   });
